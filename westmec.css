@@ -1,0 +1,176 @@
+.gridcontainer{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    padding: 2px;
+}
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+html{
+    font-size:1.5em;
+    font-family: 'Nunito', sans-serif;
+    
+}
+body{
+    margin: 0;
+    z-index: 5;
+}
+.westmec{
+    margin-bottom: 2%;
+}
+.northeast{
+    float:right;
+}
+.arrow{
+    position:Absolute;
+    opacity: 0.1;
+    top:-8%;
+    left: -45%;
+    height: 120%;
+    width: 40%;
+    transform: translateX(250%);
+    transition: 1s ease;
+    transition-delay: 1s;
+    
+}
+header img{
+    margin-left: 10%;
+    margin-top: 10px;
+
+}
+header img:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+}
+header{
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-family: 'Nunito', sans-serif;
+    position:fixed;
+    z-index: 5;
+
+    
+}
+.nav{
+    text-decoration: none;
+    color: #4c4c4e;
+    font-size: 0.6em;
+    
+
+}
+.nav:hover{
+    color:#f7931d;
+    transition: 0.2s
+}
+.navwrap
+{
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+div img{
+    height: 600px;
+    width: 100%;
+}
+
+
+.image{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    z-index: 1;
+}
+article{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    font-family: 'Nunito', sans-serif;
+    z-index: 5;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+footer{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #4c4c4e;    
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+}
+
+.button a{
+    border-color: #f7931d;
+    color: #f7931d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid;
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    z-index: 5;
+    text-decoration: none;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+p{
+    z-index: 5;
+}
+h2{
+    z-index: 5;
+}
+.button a:hover{
+    background-color:#f7931d;
+    color: white;
+    border-color: #f7931d;
+    transition: 0.3s;
+}
+aside:first-of-type{
+    text-align:center;
+    background-color: rgba(250, 250, 250, 1);
+    display:inline-block;
+    padding: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.westmeclink{
+ text-decoration:none;
+ color: #f7931d;
+ 
+}
+abbr{
+    text-decoration: none;
+}
+.buttonwrap{
+    display:flex;
+    justify-content:space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    color:white;
+
+}
+
+.NECWord{
+    Color: white;
+    position:Absolute;
+    top:55%;
+    left: -50%;
+    transform: translateX(200%);
+    transition: 1s ease;
+    font-size: 1.3em;
+
+}
+ul li{
+    list-style: none;
+}
+.wrapper{
+    text-align:center;
+}
